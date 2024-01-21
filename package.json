@@ -1,0 +1,33 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Example URL-Shortener Using Expressjs and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eabdalmufid/url-shortener.git"
+  },
+  "keywords": [
+    "url-shortener",
+    "short-url"
+  ],
+  "author": "afidev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eabdalmufid/url-shortener/issues"
+  },
+  "homepage": "https://github.com/eabdalmufid/url-shortener#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "monk": "^7.3.4",
+    "morgan": "^1.10.0"
+  }
+}
